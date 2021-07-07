@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie List</title>
+    <link rel="stylesheet" href="/styles" />
+  </head>
+  <body>
+    <main>
+      <h1>Add a new trip you want to go on:</h1>
+      <section>
+        <form>
+          <input name ="q" placeholder="Add Trip" />
+          <button>Add</button>
+        </form>
+      </section>
+      <ul id='list1'></ul>
+    </main>
+      <main>
+      <h1> Add a trip you have already been on:</h1>
+      <section>
+        <form>
+          <input id='2' name ="q" placeholder="Add Trip" />
+          <button onclick="addTrip2(event)">Add</button>
+        </form>
+      </section>
+      <ul id='list2'></ul>
+      <aside id="message"></aside>
+    </main>
+    <script src="/js"></script>
+  </body>
+</html>
